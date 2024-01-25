@@ -2,6 +2,7 @@
     margin: 10px;
     padding: 10px;
     box-sizing: border-box;
+    text-align: center; 
 }
 
 
@@ -40,8 +41,10 @@ header {
 }
 .image-container img {
     margin: 2;
-    width: 300px;
-    height:300px;
+    width: auto;
+    max-width:300px;
+    height:auto;
+    max-height:300px;
 }
 
 
@@ -103,3 +106,26 @@ footer {
         margin: 10px auto;
     }
 }
+.card {
+    width:100%;
+    max-width:600px;
+    border:2px solid blue;
+    max-height: auto;
+    margin: auto;
+    background-color: #007BFF;
+    border-radius: 25px;
+  }
+  .cards{
+    background-color:#2f4858;
+    padding: 50px 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+   
+  }
+  
+  @media (min-width:450px){
+    .cards{
+      background-color: #fff;
+    }
+  }
