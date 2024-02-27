@@ -36,8 +36,10 @@ header {
 
 .image-container {
     display: flex;
+    flex-wrap: wrap;
     justify-content:center;
     align-items:center;
+    
 }
 .image-container img {
     margin: 2;
@@ -129,5 +131,6 @@ footer {
       background-color: #fff;
     }
   }
+
 
   
